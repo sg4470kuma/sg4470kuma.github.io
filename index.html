@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>レシートカメラ</title>
+  <style>
+    :root { color-scheme: light dark; --fg: #1f2328; --muted: #59636e; --bg: #ffffff; --line: #d1d9e0; --link: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg: #e6edf3; --muted: #9198a1; --bg: #0d1117; --line: #3d444d; --link: #4493f8; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; line-height: 1.8; }
+    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+    h1 { font-size: 1.75rem; margin: 0 0 .25rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--line); }
+    .lead { color: var(--muted); margin-top: 0; }
+    a { color: var(--link); }
+    footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>レシートカメラ</h1>
+    <p class="lead">レシートを撮影して、自分の Google ドライブに月別に保存するアプリです。</p>
+
+    <h2>できること</h2>
+    <ul>
+      <li>レシートを撮影すると、ご自身の Google ドライブの「レシート」フォルダに、撮影月ごと（例: 2026-09）に分けて保存します。</li>
+      <li>電波が届かない場所で撮影しても、通信が戻ったときに自動で送信します。</li>
+      <li>送信済みの画像は、端末には直近 20 枚だけを残し、それより古いものは自動で削除します。</li>
+    </ul>
+
+    <h2>ご利用について</h2>
+    <p>家族・知人向けに個人で配布しているアプリで、アプリストアでは公開していません。</p>
+    <p>画像はご自身の Google ドライブにだけ保存され、開発者を含む第三者に送られることはありません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+    <footer>
+      <a href="privacy.html">プライバシーポリシー</a>
+    </footer>
+  </main>
+</body>
+</html>
